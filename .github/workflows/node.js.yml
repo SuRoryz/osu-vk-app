@@ -21,4 +21,6 @@ jobs:
       with:
         node-version: '12.x'
     - run: npm install
+    - run: npm install @vkontakte/vkui || yarn add @vkontakte/vkui
+    - run: npm install @vkontakte/vk-bridge || yarn add @vkontakte/vk-bridge
     - run: npm run deploy
