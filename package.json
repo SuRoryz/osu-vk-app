@@ -5,10 +5,8 @@
   "main": "index.js",
   "homepage": "https://SuRoryZ.github.io/osu-app/",
   "scripts": {
-    "start": "cross-env PORT=10888 react-scripts start",
-    "build": "react-scripts build",
-    "deploy": "gh-pages -d build",
-    "predeploy": "npm run build"
+    "deploy": "vk-miniapps-deploy",
+    "clean-source": "rimraf README.md src webroot package.json"
   },
   "keywords": [],
   "author": "",
