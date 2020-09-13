@@ -21,4 +21,4 @@ jobs:
       with:
         node-version: '12.x'
     - run: npm install @vkontakte/vk-miniapps-deploy --save-dev
-    - run: npm run deploy
+    - run: vk-miniapps-deploy
