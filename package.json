@@ -1,11 +1,14 @@
 {
-  "name": "vkminiappboilerplate",
+  "name": "osu-vk-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://suroryz.github.io/osu-vk-app/"
   "scripts": {
     "start": "cross-env PORT=10888 react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
